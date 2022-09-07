@@ -36,11 +36,11 @@
             "dateOfAchievement": { "@id": "essif:dateOfAchievement", "@type": "xsd:dateTime" },
             "overallEvaluation": "essif:overallEvaluation",
             "eqfLevel": "essif:eqfLevel",
-            "targetFrameworkName": "essif:targetFrameworkName"
-        },
-            "authorizationClaims": "essif:authorization",
+            "targetFrameworkName": "essif:targetFrameworkName",
+	    "authorizationClaims": "essif:authorization",
             "jwt": "essif:ebsiSignatureJwt",
             "verifiablePresentation": "essif:verifiablePresentationJwt"
+        }
     }
   }
 }
