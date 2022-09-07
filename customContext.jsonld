@@ -28,14 +28,18 @@
             "type": "@type",
             "studyProgram": "essif:studyProgram",
             "immatriculationNumber": "essif:immatriculationNumber",
-            "currentGivenName": "essif:currentGivenName",
-            "currentFamilyName": "essif:currentFamilyName",
+            "firstName": "essif:firstName",
+            "lastName": "essif:lastName",
+            "email": "essiif:email",
             "learningAchievement": "essif:learningAchievement",
             "dateOfBirth": { "@id": "essif:dateOfBirth", "@type": "xsd:dateTime" },
             "dateOfAchievement": { "@id": "essif:dateOfAchievement", "@type": "xsd:dateTime" },
             "overallEvaluation": "essif:overallEvaluation",
             "eqfLevel": "essif:eqfLevel",
-            "targetFrameworkName": "essif:targetFrameworkName"
+            "targetFrameworkName": "essif:targetFrameworkName",
+            "authorizationClaims": "essif:authorization",
+            "jwt": "essif:ebsiSignatureJwt",
+            "verifiablePresentation": "essif:verifiablePresentationJwt"
         }
     }
   }
